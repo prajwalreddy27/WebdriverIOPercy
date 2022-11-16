@@ -16,6 +16,7 @@ describe('Text Verification', () => {
     await textInput.click()
     // Update hello@browserstack.com email to something else to see diff in next build 
     await textInput.addValue("hello@browserstack.com"+"\n");
+    await browser.hideKeyboard();
 
     var textOutput = await $(`~Text Output`);
     await textOutput.waitForDisplayed({ timeout: 30000 });
