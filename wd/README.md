@@ -110,7 +110,7 @@ to know which organization and project to upload the screenshots to.
 You can view the screenshots in Percy now if you want, but there will be no visual comparisons
 yet. You'll see that Percy shows you that these screenshots come from your `tutorial-example` branch.
 
-### Step 6
+### Step 5
 
 Depending on if you ran Android or iOS tests, please find one of the following lines in code and update it to change content on screen
 
@@ -130,7 +130,7 @@ Commit the change:
 $ git commit -am "Changed text"
 ```
 
-### Step 7
+### Step 6
 
 Run the tests with screenshots again:
 
@@ -148,7 +148,7 @@ will be uploaded to Percy and compared with the previous screenshots, showing an
 At the end of the test run output, you will see logs from Percy confirming that the screenshots were
 successfully uploaded and giving you a direct URL to check out any visual diffs.
 
-### Step 8
+### Step 7
 
 Visit your project in Percy and you'll see a new build with the visual comparisons between the two
 runs. Click anywhere on the Build 2 row. You can see the original screenshots on the left, and the new
