@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "android": "./node_modules/.bin/wdio android/android.conf.js",
+    "ios": "./node_modules/.bin/wdio ios/ios.conf.js"
+  },
+  "dependencies": {
+    "@percy/appium-app": "^0.0.1",
+    "@wdio/cli": "^7.26.0",
+    "@wdio/local-runner": "^7.26.0",
+    "@wdio/mocha-framework": "^7.26.0"
+  }
+}
