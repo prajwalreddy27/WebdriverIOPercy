@@ -5,7 +5,7 @@ Example app used by the [Percy Js Appium tutorial](https://docs.percy.io/docs/js
 
 The tutorial assumes you're already familiar with javascript and
 [Appium](https://appium.io/) [wd](https://github.com/admc/wd)/[webdriverio](https://github.com/webdriverio/webdriverio) framework and focuses on using it with Percy. You'll still
-be able to follow along if you're not familiar with JS Appium, but we won't spend time introducing Python Appium concepts.
+be able to follow along if you're not familiar with Appium concepts, but we won't spend time introducing JS Appium concepts.
 
 
 The tutorial also assumes you have [Node 14+ with
