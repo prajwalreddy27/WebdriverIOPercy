@@ -92,6 +92,8 @@ $ cd wd
 $ npm install
 $ npm install -g @percy/cli@latest
 ```
+Minimum required `@percy/cli` version is 1.15.0 for this to work correctly. If you already have `@percy/cli` installed please
+update it to latest or minium required version with `npm update -g @percy/cli`.
 
 Now run the build with following commands 
 
