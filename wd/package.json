@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@percy/appium-app": "^0.0.2",
+    "@percy/appium-app": "^0.0.4",
     "wd": "^1.14.0"
   }
 }
