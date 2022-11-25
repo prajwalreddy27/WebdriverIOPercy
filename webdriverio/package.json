@@ -4,7 +4,7 @@
     "ios": "./node_modules/.bin/wdio ios/ios.conf.js"
   },
   "dependencies": {
-    "@percy/appium-app": "^0.0.4",
+    "@percy/appium-app": "^0.0.5",
     "@wdio/cli": "^7.26.0",
     "@wdio/local-runner": "^7.26.0",
     "@wdio/mocha-framework": "^7.26.0"
