@@ -1,5 +1,5 @@
 # example-percy-appium-js
-Example app used by the [Percy Js Appium tutorial](https://docs.percy.io/docs/js-appium-testing-tutorial) demonstrating App Percy's Python Appium integration.
+Example app used by the [Percy Js Appium tutorial](https://docs.percy.io/v2-app/docs/appium-for-javascript) and [Percy Js WebdriverIO tutorial](https://docs.percy.io/v2-app/docs/webdriverio-for-javascript) demonstrating App Percy's JS Appium and WebdriverIO integrations.
 
 ## JS Appium Tutorial
 
