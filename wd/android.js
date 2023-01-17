@@ -15,6 +15,12 @@ const desiredCaps = {
     accessKey: process.env.AA_ACCESS_KEY
   },
 
+  // Percy Options (defaults)
+  'appium:percyOptions': {
+    enabled: true,
+    ignoreErrors: true
+  },
+
   // Set URL of the application under test
   app: process.env.APP,
 
