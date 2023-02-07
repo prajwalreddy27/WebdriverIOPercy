@@ -35,7 +35,7 @@ const desiredCaps = {
 
 // Initialize the remote Webdriver using BrowserStack remote URL
 // and desired capabilities defined above
-const driver = wd.promiseRemote('http://hub-cloud.browserstack.com/wd/hub');
+const driver = wd.promiseRemote('https://hub-cloud.browserstack.com/wd/hub');
 
 // Test case for the BrowserStack sample Android app.
 // If you have uploaded your app, update the test case here.
