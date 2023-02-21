@@ -16,7 +16,7 @@ const desiredCaps = {
   },
 
   // Percy Options (defaults)
-  'appium:percyOptions': {
+  'percyOptions': {
     enabled: true,
     ignoreErrors: true
   },
