@@ -59,7 +59,7 @@ driver.init(desiredCaps)
   })
   .then(function (searchInput) {
     // Change `BrowserStack` to other word to see the diff in next build
-    return searchInput.sendKeys("BrowserStack");
+    return searchInput.sendKeys("App Percy");
   })
   .then(function () {
     return driver.elementsByClassName('android.widget.TextView');   

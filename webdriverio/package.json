@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "@percy/appium-app": "^0.0.7",
+    "@percy/cli": "^1.26.0",
     "@wdio/cli": "^7.26.0",
     "@wdio/local-runner": "^7.26.0",
     "@wdio/mocha-framework": "^7.26.0"
