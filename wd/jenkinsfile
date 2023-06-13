@@ -1,0 +1,34 @@
+pipeline {
+    agent any 
+
+    tools {nodejs "NodeJS"}
+    
+    stages {
+        stage('Build') { 
+            steps {
+                echo 'welcome to Percy build'
+            }
+        }
+        stage('Test') { 
+            steps {
+                // browserstack(credentialsId: '9a6f78db-dc64-41b5-a950-754079335050') {
+                //      echo "hello from browserStack"
+                //      sh 'npm install'
+
+                //     dir('android') {
+                //     /* execute commands in the android directory */
+                //         echo "hello from android"
+                //         sh 'node BrowserStackSample.js'
+                //     }
+                // }
+                // browserStackReportPublisher 'automate'
+                echo 'welcome to test'
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                echo 'welcome to deploy'
+            }
+        }
+    }
+}
